@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>trivia game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <body background="assets/images/holygrail-wp.jpg">
+
+        <div style="background-color: bisque !important" class="jumbotron">
+            <div class="col-md-12">
+                <header>
+                    <h1>Trivial Trivia!</h1>
+                </header>
+            </div>
+        </div>
+        <div class="col-md-12"><button id="beginTrivia">BEGIN TRIVIA!</button></div>
+        <div style="background-color: bisque !important" class="jumbotron">
+            <h2>you have <span id="timeRemaining"></span> seconds left!</h2>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="container">
+            <div style="background-color: bisque !important" class="jumbotron">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>what... is your name</h3>
+                        <form action="">
+                            <input type="radio" name="question one" value="answer one"> Gallahad
+                            <input type="radio" name="question one" value="answer two"> Robin
+                            <input type="radio" name="question one" value="answer three"> Arthur, king of the Britons
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>what... is your quest</h3>
+                        <form action="">
+                            <input type="radio" name="question two" value="answer one"> to seek the Holy Grail
+                            <input type="radio" name="question two" value="answer two"> to capture a swallow
+                            <input type="radio" name="question two" value="answer three"> to defeat the Black Knight
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>what... is your favorite color</h3>
+                        <form action="">
+                            <input type="radio" name="question three" value="answer one"> blue
+                            <input type="radio" name="question three" value="answer two"> green
+                            <input type="radio" name="question three" value="answer three"> red
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>what... is the capital of Assyria?</h3>
+                        <form action="">
+                            <input type="radio" name="question four" value="answer one"> Miami
+                            <input type="radio" name="question four" value="answer two"> Assur
+                            <input type="radio" name="question four" value="answer three"> Camelot
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>what... is the air-speed velocity of an unladen swallow?</h3>
+                        <form action="">
+                            <input type="radio" name="question five" value="answer one"> 35mp/s
+                            <input type="radio" name="question five" value="answer two"> 200 mph
+                            <input type="radio" name="question five" value="answer three"> african swallow or european
+                            swallow?
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-outline-danger">I HAVE ANSWERED YOUR QUESTIONS TIM, NOW LET
+                            ME PASS</button>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript"
+                src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        </div>
+
+
+        <script>
+            function startGame() {
+                $("#timeRemaining").text("120")
+            };
+            // $('#beginTrivia').click(startGame()
+                
+  
+            
+
+
+
+
+
+        </script>
+    </body>
+
+</html>
